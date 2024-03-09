@@ -12,7 +12,7 @@ defmodule LanguageList do
   end
 
   def first(list) do
-    Enum.at(list,0)
+    hd(list)
   end
 
   def count(list) do
